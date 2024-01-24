@@ -1,0 +1,162 @@
+.body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container-1 {
+    background-color: white;
+    width: 440px;
+    padding: 40px 32px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+}
+
+.container-1 .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.container-1 .logo h1{
+    color: linear-gradient(to right, #868f96 0%, #596164 100%);
+    font-family: 'Poppins', serif;
+    font-size: clamp(24px,4.2vw,32px);
+    font-weight: 700;
+}
+
+.container-1 h1 {
+    font-size: 1.6rem;
+}
+
+.container-1 .social {
+    display: flex;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.container-1 .social button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 8px;
+    border-radius: 8px;
+    padding: 8px;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #323760;
+    border: 1px solid #6667b0;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.container-1 .social button i {
+    font-size: 26px;
+}
+
+.container-1 .social button:hover{
+    color: #a2a8d3;
+    border-color: #a2a8d3
+}
+
+.container-1 .divider {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.container-1 .divider .line {
+    height: 1px;
+    width: 100%;
+    background: #1d1d1d;
+    opacity: 0.2;
+    margin: 30px 0px 16px;
+}
+
+.container-1 form label {
+    color: #1d1d1d;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    letter-spacing: 0.03rem;
+    margin-top: 12px;
+}
+
+.container-1 form .custom-input{
+    position: relative;
+}
+
+.container-1 .custom-input input {
+    font-size: 16px;
+    font-weight: 500;
+    height: 46px;
+    text-indent: 20px;
+    width: 100%;
+    border-radius: 8px;
+    letter-spacing: 0.03rem;
+    color: #1d1d1d;
+    background: transparent;
+    border: 1px solid #1d1d1d;
+    margin-top: 6px;
+    transition: all 0.3s ease;
+}
+
+.container-1 .custom-input input:focus{
+    border-color: #a2a8d3;
+}
+
+.container-1 form .custom-input i {
+    position: absolute;
+    font-size: 28px;
+    top: 14px;
+    right: 10px;
+    transform: all 0.3s ease;
+}
+
+.container-1 .custom-input input:focus + i{
+    color: #a2a8d3;
+}
+
+.container-1 form .login {
+    width: 100%;
+    margin-top: 30px;
+    line-height: 50px;
+    letter-spacing: 0.025rem;
+    font-weight: 800;
+    font-size: 18px;
+    background: #03001C;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.container-1 form .login:hover{
+    background: #a2a8d3;
+}
+
+.container-1 form .links {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.container-1 form .links a {
+    color: #323760;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    text-underline-offset: 6px;
+    text-decoration-color: #6b43ff;
+}
+
+.container-1 form .links a:hover {
+    text-decoration: underline;
+}

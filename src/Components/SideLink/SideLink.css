@@ -1,0 +1,30 @@
+.link {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 2px 5px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: 0.3s ease all;
+}
+
+.link:hover{
+    background-color: #aeccc6;
+}
+
+.link i{
+    font-size: 30px;
+    color: white;
+}
+
+.link p{
+    font-size: 15px;
+    color: white;
+}
+
+@media screen and (max-width: 1200px){
+    .link p{
+        display: none;
+    }
+}

@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+.main-2 {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.main-2 .left{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    background-color: #03001C;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px 0 0 10px;
+    flex-direction: column;
+
+}
+
+.main-2 .left .logo{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+.main-2 .left .logo h1{
+    color: white;
+    font-family: 'Poppins', serif;
+    font-size: clamp(24px,4.2vw,32px);
+    font-weight: 700;
+
+}
+.main-2 .left .links{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+
+.main-2 .left .logout{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.main-2 .left .logout p{
+    color: white;
+}
+
+.main-2 .left .logout i{
+    color: white;
+}  
+
+.main-2 main{
+    width: 80%;
+    background-color:  #e7eaf6;
+    height: 100%;
+    overflow: auto;
+}
+
+.main-2 main .container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.main-2 main .container .top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-2 main .container .top .sales h1{
+    font-size: 25px;
+}
+.main-2 main .container .top .nav-links{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.main-2 main .container .top .nav-links a{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.main-2 main .container .top .profile{
+    display: flex;
+    gap: 5px;
+}
+
+.main-2 main .container .top .profile .profile-image .image{
+    height: 50px;
+    width: 40px;
+    border-radius: 40%;
+}
+
+.main-2 main .container .top .profile .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-2 main .container .top .profile .info h3{
+    font-size: 20px;
+}
+
+.main-2 main .container .analytics {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr;
+    gap: 20px;
+}
+
+.main-2 main .container .analytics .item{
+    width: 240px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.main-2 main .container .analytics .item .title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.main-2 main .container .analytics .item .title i {
+    padding: 5px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.main-2 main .container .analytics .item .title p{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.main-2 main .container .analytics .item .info{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.main-2 main .container .analytics .item .info h6{
+    font-size: 20px;
+}
+
+.main-2 main .container .analytics .item .info p{
+    font-size: 10px;
+    padding: 3px;
+    border-radius: 30%;
+    background-color: red;
+}
+
+.main-2 main .container .analytics .item .info i{
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.main-2 main .container .analytics .item .sub{
+    display: flex;
+    align-items: center;
+}
+
+.main-2 main .container .analytics .item .sub p {
+    font-size: 10px;
+}
+
+.main-2 main .container .analytics .big{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.main-2 main .container .analytics .insights{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    padding: 8px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.main-2 main .container .analytics .insights .info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.main-2 main .container .analytics .insights .info p{
+    font-size: 10px;
+}
+
+.main-2 main .container .analytics .insights .button{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.main-2 main .container .analytics .insights .button .name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.main-2 main .container .analytics .insights .button .name i {
+    padding: 2px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.main-2 main .container .analytics .insights .button > i{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-2 main .container .analytics .misc{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: white;
+}
+
+.main-2 main .container .analytics .report{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    border-radius: 10px;
+    
+}
+
+.main-2 main .container .analytics .misc {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.main-2 main .container .analytics .misc .upgrade .link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1200px){
+    .main-2 .left .logo h1{
+        font-size: 20px;
+    }
+
+    .main-2 .left .logout{
+        padding: 5px;
+    }
+
+    .main-2 .left{
+        width: 15%;
+    }
+
+    .main-2 main{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .main-2 main .container .top .sales h1{
+        font-size: 15px;
+    }
+    .main-2 main .container .top .nav-links{
+        gap: 5px;
+    }
+    
+    .main-2 main .container .top .nav-links a{
+        font-size: 12px;
+    }
+    
+    .main-2 main .container .top .profile{
+        gap: 5px;
+    }
+    
+    .main-2 main .container .top .profile .info h3{
+        font-size: 16px;
+    }
+
+    .main-2 main .container .top .profile .info p{
+        font-size: 12px;
+    }
+
+    .main-2 main .container .analytics{
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+        align-items: center;
+        padding: 2px;
+    }
+
+    .main-2 main .container .analytics .item{
+        width: 80%;
+    }
+
+    .main-2 main .container .analytics .big{
+        width: 100%;
+    }
+
+    .main-2 main .container .analytics .insights{
+        width: 100%;
+    }
+
+    .main-2 main .container .analytics .misc{
+        width: 100%;
+    }
+
+    .main-2 main .container .analytics .report{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .main-2 .left .logo{
+        margin-top: 50px;
+    }
+    .main-2 .left .logo h1{
+        color: white;
+        font-size: 10px
+    }
+
+    .main-2 .left .logo .logo-img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .main-2 main .container .top .sales h1{
+        font-size: 12px;
+    }
+    .main-2 main .container .top .nav-links{
+        gap: 5px;
+        margin: 0 10px;
+    }
+    
+    .main-2 main .container .top .nav-links a{
+        font-size: 10px;
+    }
+    
+    .main-2 main .container .top .profile{
+        gap: 5px;
+    }
+    
+    .main-2 main .container .top .profile .info h3{
+        font-size: 10px;
+    }
+
+    .main-2 main .container .top .profile .info p{
+        font-size: 10px;
+    }
+
+    .main-2 main .container .top {
+        padding: 0;
+    }
+
+    .main-2 main .container .top .profile .profile-image .image{
+        width: 30px;
+    }
+}

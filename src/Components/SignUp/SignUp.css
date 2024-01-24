@@ -6,7 +6,7 @@
 }
 
 
-.container {
+.container-2 {
     background-color: white;
     width: 440px;
     padding: 40px 32px;
@@ -14,31 +14,31 @@
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
 }
 
-.container .logo{
+.container-2 .logo{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
 }
 
-.container .logo h1{
+.container-2 .logo h1{
     color: linear-gradient(to right, #868f96 0%, #596164 100%);
     font-family: 'Poppins', serif;
     font-size: clamp(24px,4.2vw,32px);
     font-weight: 700;
 }
 
-.container h1 {
+.container-2 h1 {
     font-size: 1.6rem;
 }
 
-.container .social {
+.container-2 .social {
     display: flex;
     gap: 16px;
     margin-top: 20px;
 }
 
-.container .social button{
+.container-2 .social button{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,22 +55,22 @@
     transition: all 0.3s ease;
 }
 
-.container .social button i {
+.container-2 .social button i {
     font-size: 26px;
 }
 
-.container .social button:hover{
+.container-2 .social button:hover{
     color: #a2a8d3;
     border-color: #a2a8d3
 }
 
-.container .divider {
+.container-2 .divider {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-.container .divider .line {
+.container-2 .divider .line {
     height: 1px;
     width: 100%;
     background: #1d1d1d;
@@ -78,7 +78,7 @@
     margin: 30px 0px 16px;
 }
 
-.container form label {
+.container-2 form label {
     color: #1d1d1d;
     font-size: 14px;
     font-weight: bold;
@@ -87,11 +87,11 @@
     margin-top: 12px;
 }
 
-.container form .custom-input{
+.container-2 form .custom-input{
     position: relative;
 }
 
-.container .custom-input input {
+.container-2 .custom-input input {
     font-size: 16px;
     font-weight: 500;
     height: 46px;
@@ -106,11 +106,11 @@
     transition: all 0.3s ease;
 }
 
-.container .custom-input input:focus{
+.container-2 .custom-input input:focus{
     border-color: #a2a8d3;
 }
 
-.container form .custom-input i {
+.container-2 form .custom-input i {
     position: absolute;
     font-size: 28px;
     top: 14px;
@@ -118,11 +118,11 @@
     transform: all 0.3s ease;
 }
 
-.container .custom-input input:focus + i{
+.container-2 .custom-input input:focus + i{
     color: #a2a8d3;
 }
 
-.container form .login {
+.container-2 form .login {
     width: 100%;
     margin-top: 30px;
     line-height: 50px;
@@ -138,17 +138,17 @@
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
 }
 
-.container form .login:hover{
+.container-2 form .login:hover{
     background: #a2a8d3;
 }
 
-.container form .links {
+.container-2 form .links {
     display: flex;
     justify-content: center;
     margin-top: 30px;
 }
 
-.container form .links a {
+.container-2 form .links a {
     color: #323760;
     font-weight: 600;
     font-size: 1rem;
@@ -157,6 +157,6 @@
     text-decoration-color: #6b43ff;
 }
 
-.container form .links a:hover {
+.container-2 form .links a:hover {
     text-decoration: underline;
 }

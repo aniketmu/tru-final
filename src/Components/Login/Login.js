@@ -58,7 +58,7 @@ const Login = () => {
         <h1>TruAD</h1>
         </div>
       <h1>Login into your Account</h1>
-      <div className="social">
+      {/* <div className="social">
         <button>
           <i className="bx bxl-google"></i>
           Use Google
@@ -73,7 +73,7 @@ const Login = () => {
         <div className="line"></div>
         <p>Or</p>
         <div className="line"></div>
-      </div>
+      </div> */}
 
       <form onSubmit={handleSubmit}>
         <label >Email{emailError && (<span style={{color: "red", fontSize: "10px", marginLeft: "20px"}}>{emailError}</span>)}</label>

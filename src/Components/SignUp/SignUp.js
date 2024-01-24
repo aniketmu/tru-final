@@ -40,13 +40,13 @@ const SignUp = () => {
   };
   return (
     <div className='body'>
-    <div className="container">
+    <div className="container-2">
         <div className='logo'>
         <img src={logo} style={{width: "40px", height: "40px"}} alt=''/>
         <h1>TruAD</h1>
         </div>
       <h1>Register Your Account</h1>
-      <div className="social">
+      {/* <div className="social">
         <button>
           <i className="bx bxl-google"></i>
           Use Google
@@ -61,7 +61,7 @@ const SignUp = () => {
         <div className="line"></div>
         <p>Or</p>
         <div className="line"></div>
-      </div>
+      </div> */}
 
       <form onSubmit={handleSubmit}>
       <label for="name">Name</label>

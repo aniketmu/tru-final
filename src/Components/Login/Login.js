@@ -44,14 +44,14 @@ const Login = () => {
         } else if (response.status === 200) {
           const data = await response.json();
           console.log(data);
-          navigate("/Dashboard")
+          navigate("/dashboard")
         }
       } catch (error) {
         console.log(error);
       }
     };
   return (
-    <div className='body'>
+    <div className='body-1'>
     <div className="container-1">
         <div className='logo'>
         <img src={logo} style={{width: "40px", height: "40px"}} alt=''/>

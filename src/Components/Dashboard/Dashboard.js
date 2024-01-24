@@ -35,7 +35,7 @@ const Dashboard = () => {
 
         <div className="logout">
           <i className="bx bx-log-out"></i>
-          <p onClick={() => router.push("/")}>Log Out</p>
+          <p onClick={() => router("/")}>Log Out</p>
         </div>
       </aside>
       <main>
